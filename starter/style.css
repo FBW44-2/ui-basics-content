@@ -1,0 +1,37 @@
+body {
+  background-color: whitesmoke;
+}
+
+h1 {
+  border: 1px solid black;
+}
+
+.second-heading {
+  background-color: rgba(64, 224, 208, 0.411);
+}
+
+.third-heading {
+  color: red;
+  background-color: #caffbf;
+}
+
+.fourth-heading {
+  background-color: hsla(249, 100%, 75%, 0.63);
+}
+
+.third-heading,
+.fourth-heading {
+  font-size: 30px;
+}
+
+.red {
+  color: red;
+}
+
+.second-paragraph {
+  background-color: #ffadad;
+}
+
+ul {
+  list-style-type: '\1F44D';
+}
