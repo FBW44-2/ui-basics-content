@@ -1,3 +1,19 @@
+html {
+  font-size: 62.5%;
+}
+
+li {
+  list-style-type: square;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  background-color: lightblue;
+}
+
 .main-heading {
   border: 1px solid black;
   text-align: center;
@@ -6,4 +22,39 @@
   font-style: italic;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 500;
+  font-size: 3rem;
+}
+
+.main-section {
+  font-size: 1rem;
+  /* letter-spacing: 0.5rem; */
+  /* word-spacing: 15px; */
+}
+
+.sections,
+section {
+  background-color: #c8e9a0;
+  /* height: 100vh; */
+  font-size: 20px;
+}
+
+#section-2 {
+  background-color: lightblue;
+  font-size: 2rem;
+}
+
+ul {
+  font-size: 2em;
+}
+
+.large-img {
+  width: 400px;
+}
+
+img {
+  border: 1px solid black;
+  border-radius: 10px;
+  float: left;
+  /* object-fit: scale-down; */
+  /* object-position: right top; */
 }
